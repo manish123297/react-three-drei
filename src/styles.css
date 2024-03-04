@@ -1,0 +1,29 @@
+.root{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(50, 52, 51);
+}
+h1{
+    font-size: 20em;
+font-weight: 400;
+letter-spacing: -0.05em;
+line-height: 0.7em;
+margin: 0;
+padding: 0;
+}
+
+.text > div {
+    font-family: sans-serif;
+    font-weight: 600;
+    position: absolute;
+    background-color: #00000088;
+    color: white;
+    padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 30px;
+    user-select: none;
+  }
